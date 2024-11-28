@@ -3,8 +3,8 @@ package core
 import (
 	"fmt"
 
-	b3 "github.com/magicsea/behavior3go"
-	. "github.com/magicsea/behavior3go/config"
+	b3 "github.com/phuhao00/behavior3go"
+	. "github.com/phuhao00/behavior3go/config"
 )
 
 type IComposite interface {
@@ -48,12 +48,12 @@ func (this *Composite) GetChildCount() int {
 	return len(this.children)
 }
 
-//GetChild
+// GetChild
 func (this *Composite) GetChild(index int) IBaseNode {
 	return this.children[index]
 }
 
-//AddChild
+// AddChild
 func (this *Composite) AddChild(child IBaseNode) {
 	this.children = append(this.children, child)
 }

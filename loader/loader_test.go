@@ -5,12 +5,12 @@ import (
 	"reflect"
 	"testing"
 
-	b3 "github.com/magicsea/behavior3go"
-	//. "github.com/magicsea/behavior3go/actions"
-	//. "github.com/magicsea/behavior3go/composites"
-	. "github.com/magicsea/behavior3go/config"
-	. "github.com/magicsea/behavior3go/core"
-	//. "github.com/magicsea/behavior3go/decorators"
+	b3 "github.com/phuhao00/behavior3go"
+	//. "github.com/phuhao00/behavior3go/actions"
+	//. "github.com/phuhao00/behavior3go/composites"
+	. "github.com/phuhao00/behavior3go/config"
+	. "github.com/phuhao00/behavior3go/core"
+	//. "github.com/phuhao00/behavior3go/decorators"
 )
 
 type Test struct {
@@ -31,8 +31,8 @@ func TestExample(t *testing.T) {
 
 }
 
-///////////////////////加载事例///////////////////////////
-//自定义action节点
+// /////////////////////加载事例///////////////////////////
+// 自定义action节点
 type LogTest struct {
 	Action
 	info string
