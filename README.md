@@ -12,7 +12,7 @@ golang behavior tree,from https://github.com/behavior3
 [编译好的桌面版](https://github.com/magicsea/behavior3editor/releases)
 
 ## 示例 Examples
-
+- [game](...): 游戏压测
 - [load_from_tree](https://github.com/magicsea/behavior3go/tree/master/examples/load_from_tree)  ：从导出的树文件加载示例
 - [load_from_project](https://github.com/magicsea/behavior3go/tree/master/examples/load_from_project) ：从导出的工程文件加载示例
 - [load_from_rawproject](https://github.com/magicsea/behavior3go/tree/master/examples/load_from_rawproject) ：从原生工程文件加载示例
